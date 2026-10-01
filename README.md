@@ -8,7 +8,7 @@ Note that R32 is fitted as a 0R link on this PCB.
 
 ![image](./Issue4B-2x1.png "PCB without Heatsink")
 
-![image](./issue4B-With_Heatsink.png "PCB with Heatsink")
+![image](./Issue4B-With_Heatsink.png "PCB with Heatsink")
 
 I would not use these gerbers to manufacture a PCB without a lot more checking.
 
