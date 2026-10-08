@@ -600,7 +600,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerber/",
+      "plot": "Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "STPS/Issue4B.step",
