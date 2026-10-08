@@ -6,6 +6,8 @@ The created schematic was based on the physical layout of the PCB and appears to
 
 Note that R32 is fitted as a 0R link on this PCB.
 
+According to the Issue 6 schematic, C100 is 10nF and C101 is 47nF.
+
 ![image](./Issue4B-2x1.png "PCB without Heatsink")
 
 ![image](./Issue4B-With_Heatsink.png "PCB with Heatsink")

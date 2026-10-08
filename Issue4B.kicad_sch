@@ -6,9 +6,9 @@
 	(paper "A1")
 	(title_block
 		(title "ZX Spectrum 48K")
-		(date "2026-10-01")
+		(date "2026-10-08")
 		(rev "4B")
-		(company "Submeson Brain Corporation")
+		(company "Submeson Brain Corporation/LiveBoxAndy/Dee")
 	)
 	(lib_symbols
 		(symbol "+12V_1"
@@ -6618,6 +6618,162 @@
 						)
 					)
 					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_1_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -21264,6 +21420,12 @@
 		(uuid "08c0876c-4357-4f31-8e75-cf7ef41fb343")
 	)
 	(junction
+		(at 77.47 351.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08f33dc5-b70c-4f32-a863-54cb8406e37e")
+	)
+	(junction
 		(at 233.68 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22302,6 +22464,12 @@
 		(uuid "7a4e8b5c-7ff7-4c71-9d1c-55d6e637c485")
 	)
 	(junction
+		(at 77.47 360.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a577972-cc24-4033-8925-79b73872ac43")
+	)
+	(junction
 		(at 327.66 334.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22660,12 +22828,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2826626-f42b-41b5-a02d-9f22e183bcd5")
-	)
-	(junction
-		(at 87.63 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a32138e2-ac1d-437d-85ab-8d73c981e73b")
 	)
 	(junction
 		(at 184.15 140.97)
@@ -23092,12 +23254,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca580a99-ebe0-4185-96d8-244fdf151c6f")
-	)
-	(junction
-		(at 82.55 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca718824-38b9-439e-a8a3-20c5aea0fab6")
 	)
 	(junction
 		(at 642.874 472.44)
@@ -26860,6 +27016,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 354.33) (xy 77.47 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1829b9f6-fe5a-44d9-abda-51e346a5b33c")
+	)
+	(wire
+		(pts
 			(xy 627.38 186.69) (xy 627.38 125.73)
 		)
 		(stroke
@@ -27880,6 +28046,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 359.41) (xy 77.47 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28655dc6-b4bf-4ad8-a34d-6ae82f608e94")
+	)
+	(wire
+		(pts
 			(xy 440.69 219.71) (xy 492.76 219.71)
 		)
 		(stroke
@@ -28440,7 +28616,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 299.72) (xy 80.01 303.53)
+			(xy 80.01 299.72) (xy 80.01 304.8)
 		)
 		(stroke
 			(width 0)
@@ -31690,6 +31866,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 360.68) (xy 73.66 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6629d928-2db6-4d71-96b7-9e10807ce2a8")
+	)
+	(wire
+		(pts
 			(xy 287.02 372.872) (xy 287.02 382.27)
 		)
 		(stroke
@@ -32700,7 +32886,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 311.15) (xy 80.01 314.96)
+			(xy 80.01 309.88) (xy 80.01 314.96)
 		)
 		(stroke
 			(width 0)
@@ -36440,7 +36626,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 360.68) (xy 73.66 360.68)
+			(xy 82.55 360.68) (xy 77.47 360.68)
 		)
 		(stroke
 			(width 0)
@@ -40420,6 +40606,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 351.79) (xy 83.82 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f07eb3-58d6-4cd9-9e92-196d7e41fb2e")
+	)
+	(wire
+		(pts
 			(xy 328.93 161.29) (xy 334.01 161.29)
 		)
 		(stroke
@@ -40550,7 +40746,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 351.79) (xy 83.82 351.79)
+			(xy 71.12 351.79) (xy 77.47 351.79)
 		)
 		(stroke
 			(width 0)
@@ -62461,7 +62657,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_name "C_Small_1")
+		(lib_id "Device:C_Small")
 		(at 80.01 307.34 0)
 		(unit 1)
 		(body_style 1)
@@ -62481,8 +62678,8 @@
 				)
 			)
 		)
-		(property "Value" "390R"
-			(at 80.01 307.34 90)
+		(property "Value" "10nF"
+			(at 84.074 307.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62491,8 +62688,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Mod:R_Yageo_L3.6mm_D1.6mm_P12.70mm_Horizontal"
-			(at 78.232 307.34 90)
+		(property "Footprint" "Mod:C_Axial_L3.8mm_D2.6mm_P12.70mm_Horizontal"
+			(at 80.01 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62513,8 +62710,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 80.01 307.34 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 317.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68455,7 +68653,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 85.09 360.68 90)
+		(at 77.47 356.87 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -68466,7 +68664,7 @@
 		(dnp yes)
 		(uuid "d468cb07-4afc-4ca4-a9f7-a740356c70cc")
 		(property "Reference" "C101"
-			(at 85.09 356.87 90)
+			(at 73.152 356.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68476,7 +68674,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 85.09 364.236 90)
+			(at 81.026 356.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -68486,7 +68684,7 @@
 			)
 		)
 		(property "Footprint" "Mod:C_Axial_L3.8mm_D2.6mm_P12.70mm_Horizontal"
-			(at 85.09 360.68 0)
+			(at 77.47 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68497,7 +68695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?45164"
-			(at 85.09 360.68 0)
+			(at 77.47 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68508,7 +68706,7 @@
 			)
 		)
 		(property "Description" "Capacitor Ceramic MLCC"
-			(at 85.09 360.68 0)
+			(at 77.47 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
